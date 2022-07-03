@@ -2,7 +2,7 @@
 
 ## Another fun and exciting project: I built a web application using html, CSS, JavaScript, and Python Flask via which users can view and buy products.
 
-# Description
+# Description:
 - Added the implementation of login and register in such a way that it allows a user to register for an account via a form and login their account. Once the user login, they should be able to see the products they buy and the product information.
 - Created a table in the database of the application named product and populated the table with some product information. Product table contains the information of Name, Category, Rating, Price, Quantity.
 - Added the functionalities of buy in such a way that it enables a user to buy a product from an available product list.
@@ -23,7 +23,7 @@
 3. The above command will install all the required dependencies
 4. Type the command "python app.py runserver"
 
-# Screenshots of the project implementation
+# Screenshots of the project implementation:
 
 ![image](https://user-images.githubusercontent.com/96188342/150786050-14e19d3f-e635-4a18-bf60-4b6592424241.png)
 
