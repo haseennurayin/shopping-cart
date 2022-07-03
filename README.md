@@ -3,40 +3,39 @@
 ## Another fun and exciting project: I built a web application using html, CSS, JavaScript, and Python Flask via which users can view and buy products.
 
 # Description
-<img src='https://user-images.githubusercontent.com/58123635/121849668-9eca3480-ccb9-11eb-9b1a-4f1040cd3b6e.png' height='300px' />
-<img src='https://user-images.githubusercontent.com/58123635/121849797-cfaa6980-ccb9-11eb-806c-073d6730ea0c.png' height='300px' />
-<img src='https://user-images.githubusercontent.com/58123635/121849824-d9cc6800-ccb9-11eb-87e2-afe2aa7243bd.png' height='300px' />
-<img src='https://user-images.githubusercontent.com/58123635/121849696-abe72380-ccb9-11eb-8bd1-656effeab191.png' height='300px' />
-<img src='https://user-images.githubusercontent.com/58123635/121849719-b7d2e580-ccb9-11eb-8f11-3d8a4d92ba29.png' height='300px' />
-Transaction history
-<img src='https://user-images.githubusercontent.com/58123635/121849877-e9e44780-ccb9-11eb-85b2-4548e91d2db1.png' height='300px' />
-Orders table
-<img src='https://user-images.githubusercontent.com/58123635/121850000-1dbf6d00-ccba-11eb-8830-fc6054a27919.png' height='300px' />
-
+- Added the implementation of login and register in such a way that it allows a user to register for an account via a form and login their account. Once the user login, they should be able to see the products they buy and the product information.
+- Created a table in the database of the application named product and populated the table with some product information. Product table contains the information of Name, Category, Rating, Price, Quantity.
+- Added the functionalities of buy in such a way that it enables a user to buy a product from an available product list.
+- Added the functionalities of remove in such a way that it enables a user to remove the product from their buy list.
 
 # Tools and Technologies:
-	• cs50
-	• Flask
-	• VS Code
-	• Flask session
+	• Python 3.10.5
+	• Python Flask
+	• HTML
+	• CSS
 	• SQLite
-
+	• Vitual Studio Code
 
 # RUN:
 
-Download zip file or git clone the project on a ide(VScode/Pycharm) and navigate to the directory where the project is present
-Type the command "pip install -r requirements.txt"
-The above command will install all the required dependencies
-Type the command "python app.py runserver"
+1. Download zip file or git clone the project on a ide(VScode/Pycharm) and navigate to the directory where the project is present
+2. Type the command "pip install -r requirements.txt" 
+3. The above command will install all the required dependencies
+4. Type the command "python app.py runserver"
 
-Start Flask’s built-in web server:
-$ flask run
+# Screenshots of the project implementation
 
-## In this pset, I have implemented:
-- App Features: register, quote, buy, index, sell, history
-- most of html templates (lots of Jinja dynamic content generation) and their UIs
-- application.py (lots of routing, logics, and Sqlite3 QUERIES)
-- Design an `orders` table to keep track of all stock transactions by all users. It is stored in finance.db
+![image](https://user-images.githubusercontent.com/96188342/150786050-14e19d3f-e635-4a18-bf60-4b6592424241.png)
+
+
+![image](https://user-images.githubusercontent.com/96188342/150786090-74c9b2c3-896c-4b9a-bc2d-b1699c5f3980.png)
+
+
+![image](https://user-images.githubusercontent.com/96188342/150785610-6e2c87d7-d9e5-4482-9441-f87d45abe2e0.png)
+
+
+![image](https://user-images.githubusercontent.com/96188342/150786192-3f7edae7-d1fe-4f99-b237-0a6622fa0c9a.png)
+
 
 Flask app file structure:
 	• application.py
