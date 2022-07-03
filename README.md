@@ -36,5 +36,6 @@
 
 Flask app file structure:
 	• application.py
+	• main.py
 	• static/
 	• templates/
